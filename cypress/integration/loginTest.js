@@ -3,7 +3,7 @@
 
 import LoginPage from '../integration/Objects/LoginPage'
 import HomePage from '../integration/Objects/HomePage'
-import Today from '../integration/Objects/Today'
+import Today from '../integration/Objects/TodayPage'
 
 
 describe('login', () => {

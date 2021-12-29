@@ -5,7 +5,7 @@ class Login{
     login(){
         
         cy.get('#email').type(user.email)
-        cy.get('#password').type(user.password)
+        cy.get('#password').type(user.password,{ log: false })
         return cy.get('.submit_btn.ist_button.ist_button_red.sel_login').click()
     }
 
